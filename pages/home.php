@@ -21,51 +21,41 @@
         </div><!--center-->
 	</section><!--descrição-autor-->
 
-	<section class="especialidades">
-		<div class="center">
-			<h2 class="title">Nossos clientes</h2>			
-				<div class="w33 left box-especialidade">
-					<img class="center" src="images/especialidade.png"/>
-					<h3>Golden Line</h3>
-				</div><!--box-especialidade-->
+		<div class="especialidades">
+				<div class="center">
 
-				<div class="w33 left box-especialidade">
-					<img class="center" src="images/especialidade5.png"/>
-					<h3>Jundia</h3>
-				</div><!--box-especialidade-->
+					<h2 class="h2-title">Especialidades</h2>
+					
+					<div class="w33 left box-especialidade">
+						<i class="fa-solid fa-bullseye"></i>
+						<h2>Aulas Presenciais e Online:</h2>
+						<p>Oferecemos a opção de aulas no local de trabalho ou virtualmente, proporcionando maior comodidade e eficiência no aprendizado.</p>
+					</div><!--w33 left box-especialidade-->
 
-				<div class="w33 left box-especialidade">
-					<img class="center" src="images/especialidade3.png"/>
-					<h3>Porto do açu</h3>
-				</div><!--box-especialidade-->
+					<div class="w33 left box-especialidade">
+						<i class="fa-regular fa-eye"></i>
+						<h2>Treinamentos Intensivos:</h2>
+						<p>Programas intensivos para situações específicas, como reuniões internacionais, apresentações ou viagens de negócios.</p>
+					</div><!--w33 left box-especialidade-->
+					
+					<div class="w33 left box-especialidade">
+						<i class="fa-regular fa-gem"></i>
+						<h2>Workshops e Seminários:</h2>
+						<p>Sessões temáticas para aprofundar conhecimentos em áreas específicas do inglês corporativo.</p>	
+					</div><!--w33 left box-especialidade-->
 
-				<div class="w33 right box-especialidade">
-					<img class="center" src="images/especialidade4.png"/>
-					<h3>Procisa</h3>
-				</div><!--box-especialidade-->
-
-				<div class="w33 left box-especialidade">
-					<img class="center" src="images/especialidade2.png"/>
-					<h3>Unimed</h3>
-				</div><!--box-especialidade-->
-
-				<div class="w33 left box-especialidade">
-					<img class="center" src="images/especialidade6.png"/>
-					<h3>Paraguaçu</h3>
-				</div><!--box-especialidade-->
-
-			<div class="clear"></div>
-		</div><!--center-->
-	</section><!--especialidades-->
+					<div class="clear"></div>
+				</div><!--center-->
+		</div><!--especialidades-->
 
 	<section class="extras">
 		<div class="center">
 			<br />
 			    <div class="duvida">
                     <h1><img src="images/image3.jpg" alt="" class="img-responsive"></h1>
-                    <h3>Você tem alguma dúvida?</h3>
+                    <h3>Vem conhecer mais sobre os nossos serviços!!</h3>
                     <br />
-                    <a class="flex-button footer" href="http://localhost/fastforward/contato">Entrar em contato</a>
+                    <a class="flex-button footer" href="http://localhost/fastforward/servicos">Mais detalhes</a>
                     <br />
 			    </div><!--duvida-->
 			<div class="clear"></div>

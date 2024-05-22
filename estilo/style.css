@@ -184,39 +184,48 @@ section.descricao-autor a.flex-button {
     text-decoration: none;
 }
 
-section.especialidades{
-	padding: 0;
-	background: #262626;
+.especialidades{
+	padding: 30px;
+	background: #4F4F4F;
 }
-section.especialidades h2.title{
-	font-size: 45px;
+
+.h2-title{
+	font-size: 35px;
 	text-align: center;
 	font-weight: 400;
 	color: white;
 	margin-bottom: 20px;
 }
+
 .box-especialidade{
 	margin-top: 40px 0;
 	padding: 10px 0;
 	text-align: center;
 }
-.box-especialidade h3{
+
+.box-especialidade h2{
 	color: white;
-	font-size: 20px;
-	margin-top: 5px;
+	font-size: 15px;
+	margin-bottom: 30px;
 }
 
-.box-especialidade img{
-	padding: 0 10%;
-	width: 50%;
-	height: 50%;
+.box-especialidade p{
+	font-weight: 300;
+	font-size: 16px;
+	color: white;
+	padding: 0 25px;
+	background: transparent;
+}
+
+.box-especialidade i{
+	padding: 15px;
+	font-size: 40px;
 }
 
 section.extras{
 	pedding: 50px 0%;
 	background: #4A7397;
 }
-
 
 section.extras img{
 	width: 20%;
@@ -264,7 +273,6 @@ section.erro-404{
 	min-height: 500px;
 	padding: 30px 0;
 }
-
 section.erro-404 h2{
 	text-align: center;
 	color: #444;
@@ -272,7 +280,6 @@ section.erro-404 h2{
 	font-size: 28px;
 	border-top: 2px solid #444;
 }
-
 section.erro-404 p{
 	margin-top: 8px;
 	text-align: center;
@@ -317,171 +324,154 @@ section.erro-404 a{
 
 /*Page Sobre*/
 .sobre-container{
-text-align: center;
-margin: 0px;
-padding: 10px;
-font-family: 'Arial', sans-serif;
-font-size: 10px;
-line-height: 1.6;
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+	font-size: 10px;
+	line-height: 1.6;
+	max-width: 1350px;
+	margin: auto;
+	padding: 40px;
+}
+
+.center-sobre {
+	background: #d3dae6;
 }
 
 .sobre-container h1{
-width: 100%;
-height: 90px;
-margin: 20px 0;
-padding: 15px;
-font-size: 36px;
-margin-bottom: 20px;
-background: #4377ba;
-color: white;
+	width: 100%;
+	height: 90px;
+	margin: 20px 0;
+	padding: 15px;
+	font-size: 36px;
+	margin-bottom: 20px;
+	background: #4377ba;
+	color: white;
+}
+
+.sobre-container h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 300;
+}
+
+.sobre-container h3{
+	font-size: 20px;
+	text-align: center;
+	color: #44484f;
+	font-weight: 300;
+	margin: 30px;
 }
 
 .sobre-container p{
-width: 100%;
-margin: -20px 0;
-max-width: 1280px;
-text-align: left;
-text-align: justify;
-font-size: 16px;
-margin-bottom: 15px;
-color: black;
-padding: 15px 30px;
-}
-
-.box-valor{
-	margin-top: 40px 0;
-	padding: 10px 0;
-	text-align: center;
-}
-
-.box-valor h2{
-	color: #444;
-	font-size: 15px;
-	margin-bottom: 40px;
-}
-
-.box-valor p{
-	font-weight: 300;
+	width: 100%;
+	margin: -20px 0;
+	max-width: 1280px;
+	text-align: left;
+	text-align: justify;
 	font-size: 16px;
+	margin-bottom: 15px;
 	color: black;
-	padding: 0 25px;
-	background: transparent;
-}
-.box-valor i{
-	padding: 15px;
-	font-size: 70px;
+	padding: 15px 30px;
 }
 
 /*Page serviços*/
 .servicos-container{
-max-width: 1280px;
-margin: 10px auto;
-padding: 40px;
+	
+	font-family: 'Arial', sans-serif;
+	font-size: 10px;
+	line-height: 1.6;
+	max-width: 1280px;
+	margin: auto;
+	padding: 33px;
 }
 .center-0{
 	background: #d3dae6;
-	padding: 10px 30px;
-	margin: 0 -30px;
 }
 .servicos-container h1{
-width: 105%;
-padding: 40px 30px;
-margin: -10px -30px;
-font-size: 36px;
-margin-bottom: 30px;
-background: #4377ba;
-color: white;
+	width: 100%;
+	height: 90px;
+	margin: 20px 0;
+	padding: 15px;
+	font-size: 36px;
+	margin-bottom: 20px;
+	text-align: center;
+	background: #4377ba;
+	color: white;
+}
+.servicos-container h2{
+	font-size: 20px;
+	text-align: left;
+	margin: 20px;
 }
 .servicos-container h3{
-width: 100%;
-height: 20px;
-margin: 5px 0;
-text-align: left;
+	width: 100%;
+	margin: 5px 0;
+	text-align: center;
+	font-size: 35px;
 }
 .servicos-container h5{
-font-size: 18px;
-text-align: center;
-color: #44484f;
-font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+	color: #44484f;
+	font-weight: 300;
+	margin: 15px;
 }
 
 .servicos-container p{
-width: 100%;
-margin: 15px 0;
-max-width: 1280px;
-text-align: left;
-text-align: justify;
-font-size: 16px;
-margin-bottom: 15px;
-color: #4d5054;
-}
-
-.box-servicos{
-	margin-top: 40px 0;
-	padding: 10px 0;
+	width: 93%;
+	margin: 20px 10px 20px 10px;
 	text-align: center;
-}
-
-.box-servicos h2{
-	color: #444;
-	font-size: 15px;
-	margin-bottom: 40px;
-}
-
-.box-servicos p{
-	font-weight: 300;
+	text-align: justify;
 	font-size: 16px;
-	color: black;
-	padding: 0 25px;
-	background: transparent;
+	margin-bottom: 15px;
+	color: #4d5054;
 }
-.box-servicos i{
-	padding: 15px;
-	font-size: 40px;
+
+.box-servico h2{
+	font-size: 20px;
+	text-align: left;
+	margin: 20px;
+}
+.box-servico p{
+	width: 90%;
+	margin: 20px;
+	text-align: left;
+	text-align: justify;
+	font-size: 16px;
+
+}
+
+.servicos-container img{
+	padding: 40px;
+	margin: -10px 0;
+	text-align: right;
+}
+
+.button a{
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 30px 90px 20px 90px;
+    background: #00a8e1;
+    text-decoration: none;
 }
 
 /*Page Contato*/
 .contato-container{
-padding: 20px 0 250px 0;
+padding: 30px 0 300px 0;
 text-align: center;
-background-image:url('../images/contato.jpg');
+}
+.box-contato{
+	background: #d3dae6;
 }
 
-/*.contato-container input[type=text]{
-margin: 8px 0;
-width: 100%;
-height: 40px;
-border: 1px solid #ccc;
-padding-left: 8px;
-font-size: 16px;
-max-width: 800px;
-color: #444;
-}
-
-.contato-container textarea{
-padding: 8px;
-padding-bottom: 100px;
-margin: 8px 0;
-width: 100%;
-height: 40px;
-border: 1px solid #ccc;
-padding-left: 20px;
-font-size: 16px;
-max-width: 800px;
-color: #444;
-resize: vertical;
-}
-
-.contato-container input[type=submit]{
-background: #00a8e1;
-width: 140px;
-height: 40px;
-color: white;
-cursor: pointer;
-}
-.contato-container{
-	background-image:url('../images/contato.jpg');
-}*/
 .box-contato i{
 	padding: 15px;
 	font-size: 70px;
@@ -490,18 +480,13 @@ cursor: pointer;
 .contato-container h1{
 	padding: 30px;
 	color: white;
-	width: 100%;
-	margin: -10px 0;
-	list-style-position: inside;
 	font-size: 40px;
-	height: 100px;
 	background: #4377ba;
 }
 
 .contato-container h2{
 	font-size: 30px;
 	padding: 20px;
-
 	color: black;
 	width: 100%;
 	margin: -10px 0;
@@ -509,7 +494,6 @@ cursor: pointer;
 
 .contato-container p{
 	padding: -15px;
-
 	color: black;
 	width: 100%;
 	margin: 5px 0;
@@ -517,7 +501,6 @@ cursor: pointer;
 
 .contato-container h4{
 	padding: 5px;
-	
 	color: black;
 	width: 100%;
 	margin: 15px 0;
