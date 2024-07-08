@@ -78,7 +78,7 @@ html, body{
 
 header{
 	padding: 40px;
-	background: #405ec2;
+	background: #0c3c54;
 	/*position: fixed;*/
 	z-index: 5;
 	width: 100%;
@@ -99,6 +99,21 @@ header .logo{
 
 .mobile{
 	display: none;
+}
+
+.mobile{
+	display: none;
+}
+nav.mobile ul{
+	margin-top: 60px;
+}
+nav.mobile li:hover{
+	text-justify: none;
+	background: #d3dae6;
+}
+nav.mobile a:hover{
+	font-size: 25px;
+	color: #00a8e1;
 }
 
 nav.desktop ul{
@@ -153,19 +168,22 @@ section.banner-container{
 
 section.descricao-autor{
 	padding: 30px 0;
-	background: #4A7397;
+	background: #3c8b9b;
 }
 
 section.descricao-autor h1{
     font-size: 35px;
     font-weight: 600;
     color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 section.descricao-autor p{
 	font-size: 16px;
-	color: #9096a6;
+	color: #E3E3DF;
 	margin-top: 10px;
+	text-align: center;
 }
 
 section.descricao-autor a.flex-button {
@@ -180,13 +198,13 @@ section.descricao-autor a.flex-button {
     font-weight: 400;
     font-size: 1.2em;
     margin: 70px auto 0;
-    background: #00a8e1;
+    background: #0c3c54;
     text-decoration: none;
 }
 
 .especialidades{
 	padding: 30px;
-	background: #4F4F4F;
+	background: #434646;
 }
 
 .h2-title{
@@ -224,7 +242,7 @@ section.descricao-autor a.flex-button {
 
 section.extras{
 	pedding: 50px 0%;
-	background: #4A7397;
+	background: #3c8b9b;
 }
 
 section.extras img{
@@ -249,12 +267,12 @@ section.extras img{
     text-transform: uppercase;
     color: white;
     letter-spacing: 1px;
-    background: #00a8e1;
+    background: #0c3c54;
     font-size: 15px;
     text-decoration: none;
 }
 footer{
-	background: #405ec2;
+	background: #0c3c54;
 	padding: 30px 0;
 }
 
@@ -334,7 +352,7 @@ section.erro-404 a{
 }
 
 .center-sobre {
-	background: #d3dae6;
+	background: #CDE4E7;
 }
 
 .sobre-container h1{
@@ -343,8 +361,8 @@ section.erro-404 a{
 	margin: 20px 0;
 	padding: 15px;
 	font-size: 36px;
-	margin-bottom: 20px;
-	background: #4377ba;
+	margin-bottom: 30px;
+	background: #3c8b9b;
 	color: white;
 }
 
@@ -385,7 +403,7 @@ section.erro-404 a{
 	padding: 33px;
 }
 .center-0{
-	background: #d3dae6;
+	background: #CDE4E7;
 }
 .servicos-container h1{
 	width: 100%;
@@ -395,7 +413,7 @@ section.erro-404 a{
 	font-size: 36px;
 	margin-bottom: 20px;
 	text-align: center;
-	background: #4377ba;
+	background: #3c8b9b;
 	color: white;
 }
 .servicos-container h2{
@@ -418,9 +436,8 @@ section.erro-404 a{
 }
 
 .servicos-container p{
-	width: 93%;
+	width: 95%;
 	margin: 20px 10px 20px 10px;
-	text-align: center;
 	text-align: justify;
 	font-size: 16px;
 	margin-bottom: 15px;
@@ -459,7 +476,7 @@ section.erro-404 a{
     font-weight: 400;
     font-size: 1.2em;
     margin: 30px 90px 20px 90px;
-    background: #00a8e1;
+    background: #0c3c54;
     text-decoration: none;
 }
 
@@ -469,7 +486,7 @@ padding: 30px 0 300px 0;
 text-align: center;
 }
 .box-contato{
-	background: #d3dae6;
+	background: #CDE4E7;
 }
 
 .box-contato i{
@@ -481,7 +498,7 @@ text-align: center;
 	padding: 30px;
 	color: white;
 	font-size: 40px;
-	background: #4377ba;
+	background: #3c8b9b;
 }
 
 .contato-container h2{
@@ -504,6 +521,22 @@ text-align: center;
 	color: black;
 	width: 100%;
 	margin: 15px 0;
+}
+
+.contato-container a{
+	border: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 5px;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 11.5px;
+    background: #0c3c54;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 768px){

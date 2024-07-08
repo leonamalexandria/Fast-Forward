@@ -16,7 +16,9 @@
 
 		<br />
 
-		<p>**frase de efeito**<p>
+		<h3>Capacite sua equipe com o inglês. Potencialize seus negócios, expanda suas fronteiras.<h3>
+
+		<br />
 
 	</div><!--center-sobre-->
 

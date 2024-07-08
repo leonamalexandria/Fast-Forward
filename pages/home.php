@@ -1,7 +1,7 @@
 	<section class="banner-container">
-		<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/logo.jpg');" class="banner-single"></div><!--banner-single-->
-		<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/IMG0.jpg');" class="banner-single"></div><!--banner-single-->
-		<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/IMG7.jpg');" class="banner-single"></div><!--banner-single-->
+		<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/IMG_001.jpg');" class="banner-single"></div><!--banner-single-->
+		<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/IMG_004.jpg');" class="banner-single"></div><!--banner-single-->
+		<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/IMG_003.jpg');" class="banner-single"></div><!--banner-single-->
 		<div class="overlay"></div><!--overlay-->
 			<div class="center">
 	    	</div><!--center-->
@@ -15,7 +15,7 @@
 				<a href="http://localhost/fastforward/sobre" class="flex-button"> Saiba Mais</a>
         	</div><!--w50-->
       		 	<div class="w50 left">
-      			  <img class="right" src="<?php echo INCLUDE_PATH; ?>images/IMG10.2.jpg" />
+      			  <img class="right" src="<?php echo INCLUDE_PATH; ?>images/IMG_LOGO.jpg" />
        			</div><!--w50-->
         	    <div class="clear"></div>
         </div><!--center-->
@@ -52,8 +52,8 @@
 		<div class="center">
 			<br />
 			    <div class="duvida">
-                    <h1><img src="images/image3.jpg" alt="" class="img-responsive"></h1>
-                    <h3>Vem conhecer mais sobre os nossos serviços!!</h3>
+                    <h1><img src="images/IMG_005.png" alt="" class="img-responsive"></h1>
+                    <h3>Vem conhecer mais sobre os nossos serviços!</h3>
                     <br />
                     <a class="flex-button footer" href="http://localhost/fastforward/servicos">Mais detalhes</a>
                     <br />
